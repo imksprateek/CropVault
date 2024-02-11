@@ -11,7 +11,7 @@ CropVault is a Flutter-based mobile application designed to streamline the proce
 
 ## Getting Started
 
-To get started with CropData Collection App, follow these steps:
+To get started with CropVault, follow these steps:
 
 1. Clone the repository:
    ```bash
@@ -31,7 +31,7 @@ To get started with CropData Collection App, follow these steps:
 
 ## Contributing
 
-We welcome contributions from the community to improve CropData Collection App. To contribute, follow these steps:
+We welcome contributions from the community to improve CropVault. To contribute, follow these steps:
 
 1. Fork the repository.
 2. Create a new branch for your feature/bugfix.
