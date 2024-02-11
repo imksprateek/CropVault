@@ -1,3 +1,6 @@
+#Deployed on AWS Lambda and integrated with AWS API Gateway.
+#Example URL- https://dum52fg547.execute-api.us-east-1.amazonaws.com/v1?lat=14.2798&lon=74.4439
+
 from flask import Flask, request, jsonify, Response
 import requests
 import awsgi
@@ -35,8 +38,6 @@ def get_results():
     else:
         return jsonify({"response" : "Check your URL and try again"}), 400
 
-if __name__ == '__main__':
-    app.run()
 
-# def lambda_handler(event, context):
-#     return awsgi.response(app, event, context, base64_content_types={"image/png"})
+def lambda_handler(event, context):
+    return awsgi.response(app, event, context, base64_content_types={"image/png"})
