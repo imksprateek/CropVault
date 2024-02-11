@@ -16,7 +16,7 @@ def get_results():
     url = f"https://open-weather13.p.rapidapi.com/city/latlon/{lat}/{lon}"
 
     headers = {
-        "X-RapidAPI-Key": "be87c04fb8msh27c62e566dc01d9p19a546jsn6780c19a518d",
+        "X-RapidAPI-Key": {API_KEY},
         "X-RapidAPI-Host": "open-weather13.p.rapidapi.com"
     }
 
